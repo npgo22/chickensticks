@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "libchickenstick")(type "KiCad")(uri "${KIPRJMOD}/libchickenstick.kicad_sym")(options "")(descr ""))
+  (lib (name "APRLPRints-symbols")(type "KiCad")(uri "${KIPRJMOD}/external/APRLPrints/APRLPRints-symbols.kicad_sym")(options "")(descr ""))
+)
