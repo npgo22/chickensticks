@@ -2078,6 +2078,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -5128,6 +5318,536 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "libchickenstick:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "libchickenstick:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -6085,6 +6805,18 @@
 		(uuid "3198afc5-ec18-492c-bfd5-b27cf1ca8bf3")
 	)
 	(rectangle
+		(start 93.98 132.08)
+		(end 149.86 172.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4c4311a8-a1cc-4aa5-a94b-4692f5630876")
+	)
+	(rectangle
 		(start 170.18 93.98)
 		(end 243.84 140.97)
 		(stroke
@@ -6163,6 +6895,16 @@
 			)
 		)
 		(uuid "65c9ebd9-45f7-435a-abf5-d47f00251a60")
+	)
+	(text "Wilson's Buzzer (He did not ask for this)"
+		(exclude_from_sim no)
+		(at 114.808 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b28e25c8-7c9a-47fa-8824-37c187827cd0")
 	)
 	(text "Because external +3.3V\nfrom a daplink is definitely dirty,\nthere are no external +3.3V options.\nAlso prevents regulator backflow."
 		(exclude_from_sim no)
@@ -6357,6 +7099,12 @@
 		(uuid "b94a90de-ecbb-4cbd-baf0-e21716f8fdd2")
 	)
 	(junction
+		(at 115.57 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe4133c-2d33-4631-a105-ba6880bf50fa")
+	)
+	(junction
 		(at 106.68 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6387,10 +7135,22 @@
 		(uuid "dbc36bc5-7d4d-4683-9b3a-88f694b5287e")
 	)
 	(junction
+		(at 127 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7fced4-0353-469b-ae97-ff1c1301be18")
+	)
+	(junction
 		(at 238.76 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee304ad9-8466-4c9b-b8fa-ff445619a20b")
+	)
+	(junction
+		(at 123.19 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1cc821e-caf9-400e-a0b5-ff0b571c4bea")
 	)
 	(junction
 		(at 184.15 72.39)
@@ -6413,10 +7173,6 @@
 	(no_connect
 		(at 248.92 34.29)
 		(uuid "0f343095-daf7-435b-8631-c7dd34ca2ead")
-	)
-	(no_connect
-		(at 149.86 69.85)
-		(uuid "0f769a9a-b243-40bc-8fb8-58a02fe5b947")
 	)
 	(no_connect
 		(at 149.86 52.07)
@@ -6487,6 +7243,16 @@
 			(type default)
 		)
 		(uuid "03ea6ac9-e5d7-46c0-9538-c48c62e505f3")
+	)
+	(wire
+		(pts
+			(xy 123.19 144.78) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cbbf2c-d2c3-4aa9-ad8c-e0b1d3822d4d")
 	)
 	(wire
 		(pts
@@ -6697,6 +7463,16 @@
 			(type default)
 		)
 		(uuid "1d57557f-f9fa-48f8-bcfe-349f889a2eda")
+	)
+	(wire
+		(pts
+			(xy 127 149.86) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fe797c-5f8c-4bab-afa3-b7b87758cf88")
 	)
 	(wire
 		(pts
@@ -6977,6 +7753,16 @@
 			(type default)
 		)
 		(uuid "42e88be1-5c8b-4e5e-a7c8-37a4af863294")
+	)
+	(wire
+		(pts
+			(xy 115.57 161.29) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4321b025-8954-4d51-8ca4-2f053706954f")
 	)
 	(wire
 		(pts
@@ -7610,6 +8396,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 161.29) (xy 115.57 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b55a27c-22b6-4896-9f50-e29143597201")
+	)
+	(wire
+		(pts
 			(xy 207.01 102.87) (xy 207.01 109.22)
 		)
 		(stroke
@@ -7627,6 +8423,16 @@
 			(type default)
 		)
 		(uuid "8cb654ba-147d-45e9-9735-49f40cd508ef")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d024440-d825-4766-a348-e3e1224fc544")
 	)
 	(wire
 		(pts
@@ -7690,6 +8496,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 161.29) (xy 115.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922a2aeb-3fe5-457d-b0a1-a5394281702b")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 149.86 67.31)
 		)
 		(stroke
@@ -7740,6 +8556,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 161.29) (xy 107.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9699a9ac-8a5f-4c00-a023-3e41d8e43933")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996a5821-17e9-4293-af37-216bbe5adcd0")
+	)
+	(wire
+		(pts
 			(xy 27.94 138.43) (xy 39.37 138.43)
 		)
 		(stroke
@@ -7757,6 +8593,16 @@
 			(type default)
 		)
 		(uuid "a0019562-9669-4702-9403-09e24f211597")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07ee7eb-b787-4172-98c7-b5de7daed8e1")
 	)
 	(wire
 		(pts
@@ -7787,6 +8633,16 @@
 			(type default)
 		)
 		(uuid "a4743037-af65-4428-aeca-afa77455494b")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 123.19 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4922680-a928-4b59-a508-321d891e9bb1")
 	)
 	(wire
 		(pts
@@ -7980,6 +8836,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 139.7) (xy 123.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0e8e43-5107-4108-9320-3937a45fbff5")
+	)
+	(wire
+		(pts
 			(xy 201.93 45.72) (xy 218.44 45.72)
 		)
 		(stroke
@@ -8057,6 +8923,16 @@
 			(type default)
 		)
 		(uuid "c79ec2f9-f235-4270-9899-974b480667ee")
+	)
+	(wire
+		(pts
+			(xy 127 166.37) (xy 127 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81c3083-d19b-4ce9-a6d0-af476dfb34c1")
 	)
 	(wire
 		(pts
@@ -8177,6 +9053,16 @@
 			(type default)
 		)
 		(uuid "d3eb56fd-40b8-4b81-af3b-c225037bc72a")
+	)
+	(wire
+		(pts
+			(xy 123.19 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d3cfd3-b00a-4bbf-89bc-558a6f6178a8")
 	)
 	(wire
 		(pts
@@ -8450,6 +9336,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 167.64) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48f4384-226a-4d47-ad86-31b521b3416d")
+	)
+	(wire
+		(pts
 			(xy 236.22 62.23) (xy 238.76 62.23)
 		)
 		(stroke
@@ -8602,6 +9498,16 @@
 		)
 		(uuid "2ea75706-f37f-4dc9-863d-ad597a1dad3b")
 	)
+	(label "BUZZER"
+		(at 97.79 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2feb6e5c-5ee1-4044-9062-247faba4f9fa")
+	)
 	(label "PB13"
 		(at 63.5 114.3 0)
 		(effects
@@ -8733,6 +9639,16 @@
 			(justify right bottom)
 		)
 		(uuid "66d81fda-e28c-41c2-bc2f-99705a2bd28f")
+	)
+	(label "BUZZER"
+		(at 158.75 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "725eafb3-b004-41bc-8643-d1a131531509")
 	)
 	(label "USB_CONN_D-"
 		(at 233.68 73.66 180)
@@ -9089,6 +10005,94 @@
 			(justify left)
 		)
 		(uuid "fdbdc320-6e44-4dbe-a9b6-4f8d784a707e")
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 124.46 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01675c02-416f-4819-b239-fc39c5a060a7")
+		(property "Reference" "Q3"
+			(at 130.81 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 130.81 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 129.54 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 124.46 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13df6ae4-fbd4-4bac-acd5-3bfdbe6e8d2c")
+		)
+		(pin "2"
+			(uuid "70856c2c-1f54-4c0e-b0cc-acb5046e15f1")
+		)
+		(pin "3"
+			(uuid "819a416f-ee19-4088-bff7-26bbe0c39273")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -10780,6 +11784,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Small")
+		(at 123.19 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4321d60a-f3d6-4688-83b0-c2dd455ac069")
+		(property "Reference" "D12"
+			(at 114.046 145.542 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 114.046 148.082 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "APRLPrints:SOD-323"
+			(at 123.19 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d666159-3055-428d-b465-a924454c54d9")
+		)
+		(pin "1"
+			(uuid "73d590a2-4651-4934-a278-17bc4d44d07a")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 88.9 85.09 0)
 		(unit 1)
@@ -11667,6 +12774,94 @@
 			(project "chickensticks"
 				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "libchickenstick:Buzzer")
+		(at 132.08 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6344f44c-d14c-44cb-abb4-e1f173b012c4")
+		(property "Reference" "BZ1"
+			(at 135.89 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MLT-7525"
+			(at 135.89 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MLT-7525"
+			(at 131.445 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C95299.pdf?lcsc_vid=RwQLA1dVE1ReXgEFEVFZUQdXQlgIVlZSEVEMVlxVTwAxVlNRQFFYVl1RQ1VcXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 131.445 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 132.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "29643599-acc0-4a95-ac6c-225bfa437adb")
+		)
+		(pin "2"
+			(uuid "0d7a5a2a-3137-4ab2-b044-51c6c194cacf")
+		)
+		(pin "3"
+			(uuid "27963f16-6462-4e7c-b972-35a83c6da5e3")
+		)
+		(pin "1"
+			(uuid "cc545695-a0e0-4711-825c-1ed67b33fdc7")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -12966,6 +14161,85 @@
 			(project "chickensticks"
 				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaaf9e62-8aca-4ff5-8988-2a76f1abb59a")
+		(property "Reference" "#PWR072"
+			(at 115.57 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a40d5dbb-092c-44bd-b794-9968b70e7017")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -14386,6 +15660,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 123.19 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db564b27-0b03-4330-8ad6-2df037f4f214")
+		(property "Reference" "#PWR070"
+			(at 123.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VUSB"
+			(at 123.19 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 123.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32b01529-6f12-4ebd-b791-9358a530b07c")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 66.04 0)
 		(unit 1)
@@ -14484,6 +15836,85 @@
 			(project "chickensticks"
 				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddaa95c0-4942-4463-b636-113455a0ce3c")
+		(property "Reference" "#PWR071"
+			(at 127 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63b91fb3-d1a1-4a65-b568-04136a5101a1")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -15797,6 +17228,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 115.57 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f88e4016-26ed-4ed5-a4fa-765499076512")
+		(property "Reference" "R19"
+			(at 117.2669 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 117.2669 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc60ec24-4728-4720-a0b9-cc7c425a6013")
+		)
+		(pin "2"
+			(uuid "a55d660b-a7b1-4848-b98b-1cf11b86161c")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 81.28 80.01 90)
 		(unit 1)
@@ -15907,6 +17442,108 @@
 			(project "chickensticks"
 				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 110.49 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1cbbfa-78e7-470f-b430-89775bddc62e")
+		(property "Reference" "R20"
+			(at 110.49 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 110.49 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 110.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 110.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 110.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 110.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43672692-7177-41c3-8e5c-82b2e46c4f49")
+		)
+		(pin "2"
+			(uuid "5c6b316f-739a-470e-910c-04cab94415a2")
+		)
+		(instances
+			(project "chickensticks"
+				(path "/ac09718b-d0ae-4ba8-97ca-421d17235641/7fce809c-f583-497b-9755-7d2b61019aef"
+					(reference "R20")
 					(unit 1)
 				)
 			)

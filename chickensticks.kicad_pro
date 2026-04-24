@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 1.15,
+          "width": 1.78
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -244,7 +244,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -853,7 +853,7 @@
         "uuid": "ac09718b-d0ae-4ba8-97ca-421d17235641"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R19-20,D12,#PWR39,#PWR70-72,Q3,BZ1-2",
     "variants": []
   },
   "sheets": [

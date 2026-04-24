@@ -2639,7 +2639,7 @@
 	)
 	(text "Pulled from \"LR2021 915MHz & 2.4GHz Reference Design Files for US915 region\"\nUses a passive combination network in place of an RF switch\nNOTE1: Needs to be re-tuned with a NanoVNA or similar as components changed (0201 -> 0402 in many cases)\nNOTE2: All components in this block are 0402\nNOTE3: Everything in this block (with the exception of the LEDs) must be under the shield\nNOTE4: We are losing a ton of precision due to not using 2.4 GHz"
 		(exclude_from_sim no)
-		(at 26.67 132.08 0)
+		(at 18.796 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
