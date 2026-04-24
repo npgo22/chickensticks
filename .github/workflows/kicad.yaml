@@ -25,7 +25,7 @@ jobs:
     #   with:
     #     path: ~/cache_3d
     #     key: cache_3d
-    - uses: INTI-CMNB/KiBot@v2_dk10
+    - uses: INTI-CMNB/KiBot@dev_k10
       with:
         # Required - kibot config file
         config: chickensticks.kibot.yaml
