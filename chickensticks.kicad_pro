@@ -91,6 +91,10 @@
           ""
         ],
         [
+          "text_thickness|134300000|77100000|b365bd4c-3628-4ce4-aa67-11a1de86b2a1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "text_thickness|136450000|90500000|1a407e88-e410-49d0-aa08-5beedff9d197|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -618,20 +622,28 @@
         "wire_width": 6
       },
       {
-        "diff_pair_width": 0.349,
+        "diff_pair_width": 0.2941,
         "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.349,
+        "track_width": 0.2941,
         "tuning_profile": ""
       },
       {
         "name": "60R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.239,
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
         "tuning_profile": ""
       }
     ],
@@ -652,6 +664,10 @@
       {
         "netclass": "60R",
         "pattern": "/Microcontroller/CAN*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
       }
     ]
   },
