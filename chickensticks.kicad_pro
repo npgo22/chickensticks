@@ -67,10 +67,6 @@
       ],
       "drc_exclusions": [
         [
-          "text_thickness|110500000|108800000|73b93894-7d9e-416a-856d-248b5f882ee6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "text_thickness|124200000|104100000|6cc2b86d-6753-4de7-912c-4dfeb92b8ec8|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -845,7 +841,7 @@
         "uuid": "ac09718b-d0ae-4ba8-97ca-421d17235641"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R12,J10,#PWR39,#PWR56,#PWR59,#PWR62,#PWR73,C29-31,D5,D10",
     "variants": []
   },
   "sheets": [
